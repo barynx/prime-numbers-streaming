@@ -19,6 +19,7 @@ The following items are missing and would need to be added for the solution to b
 3. Unit Tests
 4. Proper comments in the code
 5. Remove hardcoded config of ip and port for PrimeNumberServer
+
 I am completely aware of them and they were ommited deliberatly due to time available for implementing this exercise. 
 Happy to discuss any of the mentioned points.
 
