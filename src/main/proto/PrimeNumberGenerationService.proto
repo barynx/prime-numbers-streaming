@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_generic_services = true;
+package com.github.barynx.streaming;
+
+message PrimeNumberRequest {
+    int32 limit = 1;
+}
+
+message PrimeNumberResponse {
+    int32 prime = 1;
+}
+
+service PrimeNumberGenerationService {
+    rpc generate (PrimeNumberRequest) returns (stream PrimeNumberResponse);
+}
